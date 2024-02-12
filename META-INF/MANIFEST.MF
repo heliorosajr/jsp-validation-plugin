@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Jsp-validation-plugin
+Bundle-SymbolicName: jsp-validation-plugin;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Require-Bundle: javax.inject,
+ org.eclipse.osgi,
+ org.eclipse.jface,
+ org.eclipse.e4.ui.services,
+ org.eclipse.e4.core.di.annotations,
+ org.eclipse.core.runtime,
+ org.eclipse.ui
+Bundle-RequiredExecutionEnvironment: JavaSE-17
+Import-Package: javax.inject
+Automatic-Module-Name: jsp.validation.plugin
